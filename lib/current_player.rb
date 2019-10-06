@@ -4,8 +4,8 @@ board2 = ["O", " ", " ", " ", "X", " ", " ", "O", "X"]
 def turn_count(board)
   counter = 1;
   board.length.times do |num|
-    puts board[num];
-    print board;
+    #puts board[num];
+    #print board;
     if board[num] =="X" || board[num] =="O"
       counter = counter + 1;
     end 
