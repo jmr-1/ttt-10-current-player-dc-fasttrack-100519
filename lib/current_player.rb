@@ -2,7 +2,7 @@ board1 = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
 board2 = ["O", " ", " ", " ", "X", " ", " ", "O", "X"]
 
 def turn_count(board)
-  counter = 1;
+  counter = 0;
   board.length.times do |num|
     #puts board[num];
     #print board;
