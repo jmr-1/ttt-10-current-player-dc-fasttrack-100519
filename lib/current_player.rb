@@ -17,4 +17,5 @@ end
 def current_player
 end
 
-turn_count(board)
+turn_count(board1)
+turn_count(board2)
