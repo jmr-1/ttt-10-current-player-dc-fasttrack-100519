@@ -1,3 +1,6 @@
+board1 = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
+board2 = ["O", " ", " ", " ", "X", " ", " ", "O", "X"]
+
 def turn_count(board)
   counter = 1;
   puts counter;
