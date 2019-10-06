@@ -20,7 +20,7 @@ def current_player (board)
     puts "It is X's turn"
     return "X"
   elsif turn_count(board)%2 == 1
-    puts "it is O's turn"
+    puts "It is O's turn"
     return "O"
   end 
 end
