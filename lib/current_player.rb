@@ -5,14 +5,9 @@ def turn_count(board)
     puts board[num]
   end 
   
-  if 
-  
-  end
-  
-  
 end
 
-def current_player()
+def current_player
 
 
 end
