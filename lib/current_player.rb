@@ -3,6 +3,7 @@ def turn_count(board)
   
   board.length.times do |num|
     puts board[num]
+    prints board 
   end 
   
 end
