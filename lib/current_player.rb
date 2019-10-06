@@ -14,7 +14,15 @@ def turn_count(board)
   return counter;
 end
 
-def current_player
+def current_player (board)
+
+  if turn_count(board)%2 == 0
+    puts "It is X's turn"
+    return "X"
+  elsif turn_count(board)%2 == 1
+    puts "it is O's turn"
+    return "O"
+  end 
 end
 
 turn_count(board1)
